@@ -35,4 +35,4 @@ The form contains a single button: "Batch Process". Clicking the button initiate
 
 Notes:
 (a) Be cautious when modifying field names or database structure, as they are directly referenced in the source code.
-(b) The DBAccessor class is a utility for reading data from database. It was originally created by another contributor and later modified by the author to suit the current project requirements.
+(b) The DBAccessor class is a utility for reading data from database. It was originally created by another contributor and later modified by the author.
