@@ -21,12 +21,14 @@ The core class responsible for transforming raw text data from the database into
 
 DBMS:Microsoft Access (.accdb) for managing both the knowledge base and raw data.
 
-GLKB.accdb – Geological Label Knowledge Base
-Contains three tables: Labeling Elements, VSM, and Characteristic Values
+GLKB.accdb – Geological Label Knowledge Base.
+Contains three tables: Labeling Elements, VSM, and Characteristic Values.
+This database is located in the Debug directory alongside the executable file to ensure it is properly accessed during runtime.
 Notes:Field names in these tables are hardcoded in the source code. Any schema changes must be reflected in the code.
 
-ComplexLabels.accdb – Raw Text Data
+ComplexLabels.accdb – Raw Text Data. 
 Contains a single table:Qu – Stores raw label text to be processed into complex geological labels.
+This database is located in the Debug directory alongside the executable file to ensure it is properly accessed during runtime.
 Notes:Field names must remain in sync between the database and the C# source code.
 
 User Interface:
